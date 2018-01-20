@@ -11,17 +11,8 @@ http = "0.1.1"
 serde = "1.0.21"
 serde_derive = "1.0.21"
 tokio-core = "0.1.10"
-
-[dependencies.configure]
-git = "https://github.com/withoutboats/configure"
-
-[dependencies.configure_derive]
-git = "https://github.com/withoutboats/configure"
+configure = "0.1.1"
 
 [dependencies.hyper]
 features = ["compat"]
 version = "0.11.7"
-
-[dependencies.log]
-features = ["use_std", "serde"]
-git = "https://github.com/rust-lang-nursery/log"
